@@ -39,7 +39,12 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
-    'gatsby-plugin-netlify-cache'/*     'gatsby-plugin-offline', */
+    {
+      resolve: 'gatsby-plugin-netlify-cache',
+      options: {
+        cachePublic: false,
+      },
+    },
     `gatsby-transformer-sharp`,
     {
       resolve: 'gatsby-plugin-manifest',
