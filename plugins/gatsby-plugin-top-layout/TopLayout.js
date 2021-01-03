@@ -13,7 +13,7 @@ export default function TopLayout(props) {
           name='viewport'
           content='minimum-scale=1, initial-scale=1, width=device-width'
         />
-        <meta name='title' content='Joseph Kalayci' />
+        <title>Joseph Kalayci</title>
         <meta name='description' content='Joseph Kalayci personal webpage' />
         <meta
           name='keywords'

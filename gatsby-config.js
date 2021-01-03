@@ -5,7 +5,7 @@ module.exports = {
   },
   plugins: [
     /* `gatsby-plugin-preact`, */
-    'gatsby-plugin-layout',
+    'gatsby-plugin-top-layout',
     {
       resolve: 'gatsby-plugin-material-ui',
       // If you want to use styled components you should change the injection order.
@@ -15,7 +15,7 @@ module.exports = {
         }, */
       },
     },
-    'gatsby-plugin-top-layout',
+
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
@@ -26,7 +26,7 @@ module.exports = {
       resolve: 'gatsby-source-strapi',
       options: {
         apiURL: process.env.API_URL || 'http://localhost:1337',
-        contentTypes: ['projects', 'skills'],
+        contentTypes: ['skills'],
         singleTypes: [
           `about-section`,
           `contact-info`,
