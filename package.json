@@ -1,0 +1,49 @@
+{
+  "name": "joseph-kalayci-personal-page-gatsby",
+  "version": "1.0.0",
+  "private": true,
+  "description": "joseph-kalayci-personal-page-gatsby",
+  "author": "josephkalayci",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "aos": "^2.3.4",
+    "gatsby": "^2.26.1",
+    "gatsby-image": "^2.8.0",
+    "gatsby-plugin-google-analytics": "^2.8.0",
+    "gatsby-plugin-layout": "^1.7.0",
+    "gatsby-plugin-manifest": "^2.9.1",
+    "gatsby-plugin-material-ui": "^2.1.10",
+    "gatsby-plugin-offline": "^3.7.1",
+    "gatsby-plugin-react-helmet": "^3.7.0",
+    "gatsby-plugin-sharp": "^2.11.2",
+    "gatsby-plugin-sitemap": "^2.9.0",
+    "gatsby-plugin-transitions": "^2.1.7",
+    "gatsby-source-filesystem": "^2.8.1",
+    "gatsby-source-strapi": "0.0.12",
+    "gatsby-transformer-sharp": "^2.9.0",
+    "preact": "^10.5.8",
+    "preact-render-to-string": "^5.1.12",
+    "pts": "^0.9.6",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0",
+    "react-pts-canvas": "^0.2.8",
+    "react-scroll": "^1.8.1",
+    "react-showdown": "^2.1.0",
+    "react-spring": "^8.0.27",
+    "react-swipeable-views": "^0.13.9"
+  }
+}
