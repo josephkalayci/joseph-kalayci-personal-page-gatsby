@@ -65,7 +65,7 @@ const Skills = ({ skills }) => {
             component='div'
             className={classes.bar}
             style={{
-              width: `${skill.rate}%`,
+              width: `${skill.level}%`,
             }}
           >
             <Typography
