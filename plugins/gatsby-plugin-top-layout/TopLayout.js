@@ -8,7 +8,11 @@ import './index.css';
 export default function TopLayout(props) {
   return (
     <React.Fragment>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: 'en',
+        }}
+      >
         <meta
           name='viewport'
           content='minimum-scale=1, initial-scale=1, width=device-width'
