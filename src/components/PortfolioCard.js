@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     width: '100%',
     paddingTop: '63%',
+    boxShadow: '0px 15px 55px 0px rgba(0, 0, 0, 0.13)',
     '&:hover $bgImage, &:focus-within $bgImage': {
       opacity: 0,
     },
