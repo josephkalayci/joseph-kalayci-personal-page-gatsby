@@ -6,6 +6,8 @@ import { graphql, useStaticQuery } from 'gatsby';
 const useStyles = makeStyles((theme) => ({
   root: {
     position: 'relative',
+    overflow: 'hidden',
+    borderRadius: 4,
     display: 'flex',
     justifyContent: 'center',
     width: '100%',

@@ -69,6 +69,7 @@ const Portfolio = ({ projects }) => {
         justify='center'
         alignItems='center'
         style={{ maxWidth: 1200 }}
+        spacing={1}
       >
         {projects.map((_project, id) => (
           <Grid
